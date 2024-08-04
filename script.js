@@ -34,7 +34,7 @@ function Age() {
         AgeDay += daysInPMonth;
     }
 
-    document.getElementById("head").innerHTML="Your Age is!!!";
+    document.getElementById("head").innerHTML="Your Age is !!!";
     document.getElementById("lab1").innerHTML = "Age : ";
     document.getElementById("inp1").innerHTML =`<input type="text" name="age" class="age-year" value="${Ageyear}" readonly>`;
     document.getElementById("lab2").innerHTML="Months : ";
