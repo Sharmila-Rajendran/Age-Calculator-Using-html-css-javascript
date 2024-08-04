@@ -1,18 +1,73 @@
 .section{
-    margin: 100px 200px;
+    margin: 50px 200px;
 }
 
 .container{
     width: 50%;
-    border: 1px solid black;
+    border: 1px solid transparent;
+    border-radius:10px;
     padding: 20px;
     text-align: center;
+    background-color: white;
 }
 
 .container h1{
     text-align: center;
+    color: green;
+    margin-bottom: 20px;
 }
 
 .row{
+    margin-bottom:15px ;
+}
+
+label{
+    display: inline-block;
+    font-weight: bold;
+    color:lightgreen;
+}
+
+input[type='date']{
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+}
+
+.row button{
+    background-color: rgb(24, 136, 24);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Result{
+    border: 1px solid transparent;
+    border-radius: 10px;
     padding: 20px;
+    background-color: darkseagreen;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Result h2{
+    color: white;
+}
+
+#ageYr,#agedays,#ageMnth{
+    width: 50%;
+    color:darkgreen;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    margin-left:150px ;
+}
+
+.Result input{
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
 }
