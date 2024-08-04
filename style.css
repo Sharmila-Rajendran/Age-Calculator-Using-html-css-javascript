@@ -1,0 +1,18 @@
+.section{
+    margin: 100px 200px;
+}
+
+.container{
+    width: 50%;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.row{
+    padding: 20px;
+}
